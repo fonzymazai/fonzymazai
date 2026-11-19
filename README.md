@@ -3,7 +3,7 @@
 <h1 align="center">Hola, soy Alfonso 👋</h1>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=7C3AED&center=true&vCenter=true&width=640&lines=Construyendo+OIKAI+desde+Sevilla;Gestiono+mi+apartamento+tur%C3%ADstico+en+el+Arenal;Automatizo+negocios+con+n8n+e+IA;Emprendedor+desde+2020" alt="Typing SVG">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=7C3AED&center=true&vCenter=true&width=700&lines=Construyendo+OIKAI+desde+Sevilla;Gesti%C3%B3n+de+alquileres+vacacionales%2C+media+y+larga+estancia;Automatizo+negocios+con+n8n+e+IA;Emprendedor+desde+2020" alt="Typing SVG">
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@ Desde 2020 he montado y dirigido **cuatro negocios propios**, con mi dinero en j
 <table align="center">
 <tr>
 <td align="center"><h3>4</h3>negocios propios<br>desde 2020</td>
-<td align="center"><h3>85%</h3>ocupación media<br>del apartamento</td>
+<td align="center"><h3>85%</h3>ocupación media<br>en alquiler vacacional</td>
 <td align="center"><h3>4,2/5</h3>nota media en reseñas<br>entre plataformas</td>
 <td align="center"><h3>15</h3>personas en los equipos<br>que he dirigido</td>
 </tr>
@@ -33,9 +33,8 @@ Desde 2020 he montado y dirigido **cuatro negocios propios**, con mi dinero en j
 | | Proyecto | Qué es |
 |---|---|---|
 | 🏠 | **OIKAI** | Plataforma de gestión a medida para media estancia |
-| 🏖️ | **WellHome Rentals** | Mi apartamento turístico en el Arenal de Sevilla |
-| 🤝 | **Fusión Startups** | Venture builder, junto a Tricket |
-| 💼 | **OVB Allfinanz** | Asesoramiento financiero a particulares |
+| 🏖️ | **WellHome Rentals** | Gestión de alquileres vacacionales, de media y larga estancia |
+| 🤝 | **Tricket** | Venture builder |
 
 ## 🏢 OIKAI
 
@@ -57,7 +56,7 @@ Desde 2020 he montado y dirigido **cuatro negocios propios**, con mi dinero en j
 
 ## 🏖️ WellHome Rentals
 
-Gestiono de principio a fin un **apartamento turístico en el Arenal, en el centro de Sevilla**. Fijo yo los precios y llevo la operativa diaria: reservas, limpieza, comunicación con huéspedes y contabilidad.
+Gestión de **alquileres vacacionales, de media y larga estancia**. Fijo yo los precios y llevo la operativa diaria: reservas, limpieza, comunicación con huéspedes y contabilidad.
 
 - 📈 **85 %** de ocupación media
 - ⭐ **4,2 / 5** de nota media entre todas las plataformas
@@ -65,7 +64,7 @@ Gestiono de principio a fin un **apartamento turístico en el Arenal, en el cent
 
 ## ⚙️ Automatización con n8n
 
-Tengo montado un servidor de **n8n** que lleva buena parte de la operativa de WellHome en piloto automático:
+Tengo montado un servidor de **n8n** que lleva buena parte de la operativa en piloto automático:
 
 ```mermaid
 flowchart LR
@@ -89,16 +88,15 @@ B --> H["📚 Contabilidad en ERPNext"]
 
 | Etapa | Qué hice |
 |---|---|
-| **2025 a hoy** | **WellHome Rentals**: apartamento turístico en el Arenal de Sevilla |
-| **2025 a 2026** | **Fusión Startups**: venture builder, junto a Tricket |
-| **2025 a 2026** | **OVB Allfinanz**: asesor financiero para particulares |
+| **2025 a hoy** | **WellHome Rentals**: gestión de alquileres vacacionales, de media y larga estancia |
+| **2025 a 2026** | **Tricket**: venture builder |
 | **2020 a 2026** | **UNight S.L.** y dos negocios de hostelería: presupuestos, tesorería, proveedores y equipos de hasta 15 personas |
 | **2017 a 2021** | Relaciones públicas en el mundo de la noche y los eventos |
 
 ## 🎓 Formación
 
+- 🎓 **Administración y Dirección de Empresas**, Universidad Europea de Madrid
 - 🎯 **Programa LYDES**, San Telmo Business School
-- 🤖 **Artificial Intelligence Fundamentals**, IBM SkillsBuild
 
 ## 🛠️ Herramientas que uso
 
