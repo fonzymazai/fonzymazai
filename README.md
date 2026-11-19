@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:7c3aed&height=180&section=header&text=Alfonso%20Maza&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Business%20Management%20%C2%B7%20Real%20Estate%20%C2%B7%20Automatizaci%C3%B3n%20con%20IA&descSize=16&descAlignY=60" width="100%" alt="Alfonso Maza">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:7c3aed&height=180&section=header&text=Alfonso%20Maza&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Producto%20digital%20%C2%B7%20Real%20Estate%20%C2%B7%20Automatizaci%C3%B3n%20con%20IA&descSize=16&descAlignY=60" width="100%" alt="Alfonso Maza">
 
 <h1 align="center">Hola, soy Alfonso 👋</h1>
 
@@ -17,24 +17,23 @@
 
 ## 🧭 Sobre mí
 
-Desde 2020 he montado y dirigido **cuatro negocios propios**, con mi dinero en juego y la cuenta de resultados a mi cargo. Eso enseña a decidir con números antes que con intuiciones. Soy de **Sevilla** (con los veranos en Islantilla) y mi terreno es la estrategia, las finanzas y el desarrollo de negocio, cada vez más cerca del **real estate** y de la **automatización con IA**.
+Desde 2020 he montado y dirigido **cuatro negocios propios**, con mi dinero en juego y la cuenta de resultados a mi cargo. Eso enseña a decidir con números antes que con intuiciones. Soy de **Sevilla** (con los veranos en Islantilla) y ahora llevo esa experiencia a **construir producto**: plataformas para el sector inmobiliario y automatización de procesos con IA.
 
 <table align="center">
 <tr>
 <td align="center"><h3>4</h3>negocios propios<br>desde 2020</td>
 <td align="center"><h3>85%</h3>ocupación media<br>en alquiler vacacional</td>
 <td align="center"><h3>4,2/5</h3>nota media en reseñas<br>entre plataformas</td>
-<td align="center"><h3>15</h3>personas en los equipos<br>que he dirigido</td>
+<td align="center"><h3>+1.000</h3>colaboradores en la red<br>que construí en eventos</td>
 </tr>
 </table>
 
-## 🚀 Lo que hago hoy
+## 💻 En qué estoy trabajando
 
 | | Proyecto | Qué es |
 |---|---|---|
-| 🏠 | **OIKAI** | Plataforma de gestión a medida para media estancia |
-| 🏖️ | **WellHome Rentals** | Gestión de alquileres vacacionales, de media y larga estancia |
-| 🤝 | **Tricket** | Venture builder |
+| 🏠 | **OIKAI** | Participo en el desarrollo de una plataforma de gestión a medida para media estancia |
+| 🏖️ | **WellHome Rentals** | Gestión de alquileres vacacionales, de media y larga estancia, con la operativa automatizada en n8n |
 
 ## 🏢 OIKAI
 
@@ -42,7 +41,7 @@ Desde 2020 he montado y dirigido **cuatro negocios propios**, con mi dinero en j
 <a href="https://oikai.es"><img src="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_2sabnkx1qr9cwab59s7q5tgqaj/039c182ca898e8d39f9619b71941af5c_1794932021783.png" width="640" alt="OIKAI"></a>
 </p>
 
-**OIKAI** es una plataforma de gestión a medida para gestores de habitaciones y apartamentos de media estancia. *Tu alquiler por habitaciones, en piloto automático.*
+**OIKAI** es una plataforma de gestión a medida para gestores de habitaciones y apartamentos de media estancia. *Tu alquiler por habitaciones, en piloto automático.* Participo en el desarrollo del producto junto al equipo técnico, trabajando con Claude Code y Lovable sobre un repositorio de GitHub.
 
 | | |
 |---|---|
@@ -56,15 +55,15 @@ Desde 2020 he montado y dirigido **cuatro negocios propios**, con mi dinero en j
 
 ## 🏖️ WellHome Rentals
 
-Gestión de **alquileres vacacionales, de media y larga estancia**. Fijo yo los precios y llevo la operativa diaria: reservas, limpieza, comunicación con huéspedes y contabilidad.
+Gestión de **alquileres vacacionales, de media y larga estancia**, de principio a fin: reservas, limpieza, comunicación con huéspedes, proveedores y contabilidad. Los precios los fijo yo, cruzando la ocupación con lo que hace la competencia y con los eventos de la ciudad.
 
 - 📈 **85 %** de ocupación media
 - ⭐ **4,2 / 5** de nota media entre todas las plataformas
-- 🧠 Decisiones de precio basadas en datos, no en intuición
+- 🤖 Operativa diaria automatizada con **n8n** (ver abajo)
 
 ## ⚙️ Automatización con n8n
 
-Tengo montado un servidor de **n8n** que lleva buena parte de la operativa en piloto automático:
+Tengo montado un servidor de **n8n** que lleva buena parte de la operativa en piloto automático. Webhooks, triggers de Gmail y Drive, tareas programadas e integración con la API de ERPNext:
 
 ```mermaid
 flowchart LR
@@ -77,21 +76,29 @@ G["🧾 Facturas en Drive"] --> B
 B --> H["📚 Contabilidad en ERPNext"]
 ```
 
-- 📥 **Alta automática de reservas** a partir de los emails de confirmación
-- 📅 **Calendario sincronizado**, con bloques de limpieza y número de huéspedes
-- 🌅 **Resumen diario** de entradas, salidas y agenda de limpieza
-- 🗣️ **Consulta de reservas por voz** con un Atajo de Siri
-- 🧾 **Facturas de proveedores** que entran solas en la contabilidad (ERPNext)
-- 🔄 **Reconciliación** de reservas contra los emails para detectar cambios y cancelaciones
+| Workflow | Disparador | Qué hace |
+|---|---|---|
+| **Alta de reservas** | Gmail, email de confirmación | Guarda cada reserva nueva en Google Sheets |
+| **Resumen diario** | Programado, 9:00 | Entradas, salidas y agenda de limpieza |
+| **Calendario** | Programado | Bloques de limpieza con el número de huéspedes de cada día |
+| **Consulta por voz** | Webhook GET desde un Atajo de Siri | Responde qué pasa hoy y mañana, días libres y próxima reserva |
+| **Facturas a contabilidad** | Drive, nueva factura | Comprueba o crea el proveedor y crea la factura en ERPNext por API |
+| **Reconciliación** | Manual | Cruza reservas y emails para detectar las que faltan, cambian o se cancelan |
+
+## 🎟️ Tricket
+
+Plataforma de gestión de ticketing para eventos que desarrollé en equipo entre 2025 y 2026. Conozco el problema desde dentro: organicé eventos universitarios con UNight en Sevilla, Huelva y Cádiz.
 
 ## 🛤️ Trayectoria
 
 | Etapa | Qué hice |
 |---|---|
-| **2025 a hoy** | **WellHome Rentals**: gestión de alquileres vacacionales, de media y larga estancia |
-| **2025 a 2026** | **Tricket**: venture builder |
-| **2020 a 2026** | **UNight S.L.** y dos negocios de hostelería: presupuestos, tesorería, proveedores y equipos de hasta 15 personas |
-| **2017 a 2021** | Relaciones públicas en el mundo de la noche y los eventos |
+| **2026 a hoy** | **OIKAI**: desarrollo de una plataforma de gestión de alquileres para media estancia |
+| **2025 a hoy** | **WellHome Rentals**: gestión de alquileres vacacionales, de media y larga estancia, con automatización en n8n |
+| **2025 a 2026** | **Tricket**: desarrollo de una plataforma de gestión de ticketing para eventos |
+| **2023 a 2025** | **Mad Club Islantilla**: cofundador y CEO de un local de hostelería de temporada. Presupuestos, caja, proveedores, patrocinadores y equipo de hasta 15 personas |
+| **2021 a 2026** | **UNight S.L.**: fundador y CEO. Eventos universitarios en Sevilla, Huelva y Cádiz, con una red de más de 1.000 colaboradores y más de 20 locales asociados |
+| **2020 a 2022** | **Waikiki Club Islantilla**: cofundador y encargado de un pub de temporada. Tesorería, personal, proveedores y promoción en redes |
 
 ## 🎓 Formación
 
